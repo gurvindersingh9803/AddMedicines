@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/medicineName"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/lo" />
+
+    <EditText
+        android:id="@+id/medicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round"
+        android:inputType="textCapWords"
+        android:hint="Medicine name"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/composition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="composition"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textCapWords"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+
+        android:inputType="textCapWords"
+
+        android:hint="Brand name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round"
+        android:layout_below="@+id/composition"
+        />
+
+    <EditText
+        android:id="@+id/MRP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="MRP"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round"
+        android:layout_below="@+id/company"
+
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/PTR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/round"
+        android:layout_below="@+id/MRP"
+        android:hint="PTR"
+        android:inputType="number"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select medicine category-:"
+        android:layout_below="@+id/PTR"
+        android:id="@+id/categoryName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
+        android:background="@drawable/round"
+        android:layout_below="@+id/categoryName"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/upload"
+        android:layout_below="@id/spinnerQuantity"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pickImagesMedicine"
+        android:layout_alignParentBottom="true"
+        android:text="Choose file"
+        android:background="#000000"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/upload"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/orders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:background="#000000"
+        android:text="View orders"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
+
+

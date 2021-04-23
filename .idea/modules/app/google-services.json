@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "82200205501",
+    "project_id": "addmedicines",
+    "storage_bucket": "addmedicines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82200205501:android:931df7560d42c92c93bfd4",
+        "android_client_info": {
+          "package_name": "com.example.addmedicines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82200205501-l8bh0bb9knkfq031logjq8qmh63o6erb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.addmedicines",
+            "certificate_hash": "228c4aa080ba6e442bffca15656d87d49f04ed98"
+          }
+        },
+        {
+          "client_id": "82200205501-qil2ohngjeo8s5g6n0fnk51u90vldj8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMVxvp-zxS_gfee9ZrxbY5_PHURvkM6H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82200205501-qil2ohngjeo8s5g6n0fnk51u90vldj8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "206790685977",
+    "firebase_url": "https://medex-15ca2-default-rtdb.firebaseio.com",
+    "project_id": "medex-15ca2",
+    "storage_bucket": "medex-15ca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206790685977:android:c5346a8ee7eebc7b040188",
+        "android_client_info": {
+          "package_name": "com.example.addmedicines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206790685977-98mdcn5f2tv9l4ui98p7tavkute6fone.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxt1qA3LzkwdhRgDy2DFy2hDM7Is2Yzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206790685977-98mdcn5f2tv9l4ui98p7tavkute6fone.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206790685977:android:2593ce5650d8f6b2040188",
+        "android_client_info": {
+          "package_name": "com.example.medex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206790685977-n1rqvjvdl0otguo24615e3kav71jaea0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medex",
+            "certificate_hash": "228c4aa080ba6e442bffca15656d87d49f04ed98"
+          }
+        },
+        {
+          "client_id": "206790685977-98mdcn5f2tv9l4ui98p7tavkute6fone.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxt1qA3LzkwdhRgDy2DFy2hDM7Is2Yzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206790685977-98mdcn5f2tv9l4ui98p7tavkute6fone.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
